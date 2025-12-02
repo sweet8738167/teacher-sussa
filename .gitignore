@@ -1,0 +1,45 @@
+# ======================
+# .gitignore para Teacher Sussa
+# ======================
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências (se for usar depois)
+node_modules/
+
+# Build e distribuição
+dist/
+build/
+out/
+
+# Ambiente e configurações
+.env
+.env.local
+
+# Backup e temporários
+*.tmp
+*.temp
+*.cache
+*.bak
+
+# Imagens grandes ou temporárias
+assets/temp/
+assets/backups/
+*.psd
+*.ai

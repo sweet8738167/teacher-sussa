@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEATCHER SUSSA - Aprenda Tecnologia Sem Complicação</title>
+    <meta name="description" content="Aprenda programação, design e tecnologia de forma descomplicada com o Teacher Sussa">
+    <meta name="keywords" content="programação, tecnologia, cursos, mentorias, aprendizado">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Barra de Notificação -->
+    <div class="notification-bar">
+        <div class="container">
+            <p>🎯 <strong>OFERTA LIMITADA:</strong> Primeira mentoria GRÁTIS para os 50 primeiros!</p>
+            <span class="countdown" id="countdown">24:00:00</span>
+        </div>
+    </div>
+
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>TEATCHER <span class="highlight">SUSSA</span></h1>
+                    <p class="tagline">Tecnologia sem complicação</p>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#hero"><i class="fas fa-home"></i> Início</a>
+                <a href="#sobre"><i class="fas fa-user-tie"></i> Sobre</a>
+                <a href="#cursos"><i class="fas fa-laptop-code"></i> Cursos</a>
+                <a href="#mentoria"><i class="fas fa-handshake"></i> Mentoria</a>
+                <a href="#depoimentos"><i class="fas fa-comments"></i> Depoimentos</a>
+                <a href="#contato" class="btn-nav">
+                    <i class="fas fa-rocket"></i> Começar Agora
+                </a>
+            </nav>
+            
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span><i class="fas fa-fire"></i> MÉTODO COMPROVADO</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Pare de Apenas <span class="highlight">ESTUDAR</span><br>
+                    Comece a <span class="highlight">PROGRAMAR</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Transformo iniciantes em desenvolvedores prontos para o mercado em 
+                    <span class="highlight">menos tempo</span> do que você imagina.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>1.200+</h3>
+                        <p>Alunos Transformados</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Taxa de Satisfação</p>
+                    </div>
+                    <div class="stat">
+                        <h3>R$ 5.2M+</h3>
+                        <p>Em Salários Conquistados</p>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#mentoria" class="btn btn-primary btn-large">
+                        <i class="fas fa-video"></i> AGENDAR MENTORIA GRÁTIS
+                    </a>
+                    <a href="#cursos" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i> VER CURSOS
+                    </a>
+                </div>
+                
+                <div class="hero-trust">
+                    <p><i class="fas fa-shield-alt"></i> Garantia de 30 dias ou seu dinheiro de volta</p>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="teacher-avatar">
+                        <!-- Imagem do Teacher Sussa -->
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="avatar-badge">
+                            <i class="fas fa-check"></i> 15+ anos de experiência
+                        </div>
+                    </div>
+                    
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <i class="fab fa-js-square"></i>
+                            <p>JavaScript Expert</p>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-server"></i>
+                            <p>Full Stack</p>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Carreira Tech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quem é o <span class="highlight">Teacher Sussa</span>?</h2>
+                <p class="section-subtitle">Não sou apenas mais um professor, sou seu mentor de carreira</p>
+            </div>
+            
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p class="lead">
+                        Com <strong>15+ anos na indústria de tecnologia</strong>, já treinei times em empresas como 
+                        Google, Microsoft e startups brasileiras. Mas minha verdadeira paixão é 
+                        <strong>transformar vidas através do código</strong>.
+                    </p>
+                    
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <h4>Método Prático</h4>
+                                <p>Zero teoria desnecessária, 100% prática do mercado real.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Comunidade Exclusiva</h4>
+                                <p>Acesso a network com devs e oportunidades de trabalho.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Foco em Emprego</h4>
+                                <p>Preparação para entrevistas técnicas e construção de portfólio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="assinatura">
+                        <div class="assinatura-img">
+                            <img src="https://i.imgur.com/placeholder.png" alt="Assinatura Teacher Sussa">
+                        </div>
+                        <div class="assinatura-text">
+                            <h4>Teacher Sussa</h4>
+                            <p>Seu mentor em tecnologia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sobre-video">
+                    <div class="video-wrapper">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <p>ASSISTA MINHA HISTÓRIA (2 min)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cursos <span class="highlight">Transformadores</span></h2>
+                <p class="section-subtitle">Escolha seu caminho e comece hoje mesmo</p>
+            </div>
+            
+            <div class="cursos-grid">
+                <!-- Curso 1 -->
+                <div class="curso-card popular">
+                    <div class="curso-badge">
+                        <span>MAIS VENDIDO</span>
+                    </div>
+                    
+                    <div class="curso-header">
+                        <div class="curso-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3>JavaScript do Zero ao Profissional</h3>
+                        <p class="curso-desc">Domine a linguagem mais importante do mercado web</p>
+                    </div>
+                    
+                    <div class="curso-features">
+                        <p><i class="fas fa-check"></i> 45 horas de conteúdo</p>
+                        <p><i class="fas fa-check"></i> 12 projetos reais</p>
+                        <p><i class="fas fa-check"></i> Certificado reconhecido</p>
+                        <p><i class="fas fa-check"></i> Suporte direto comigo</p>
+                    </div>
+                    
+                    <div class="curso-price">
+                        <div class="old-price">R$ 997</div>
+                        <div class="new-price">R$ 497</div>
+                        <div class="installment">ou 12x R$ 49,90</div>
+                    </div>
+                    
+                    <a href="#contato" class="btn btn-primary btn-block">
+                        <i class="fas fa-shopping-cart"></i> QUERO ME INSCREVER
+                    </a>
+                </div>
+                
+                <!-- Curso 2 -->
+                <div class="curso-card">
+                    <div class="curso-header">
+                        <div class="curso-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Full Stack em 6 Meses</h3>
+                        <p class="curso-desc">Frontend + Backend + DevOps completo</p>
+                    </div>
+                    
+                    <div class="curso-features">
+                        <p><i class="fas fa-check"></i> 120 horas de conteúdo</p>
+                        <p><i class="fas fa-check"></i> 20 projetos completos</p>
+                        <p><i class="fas fa-check"></i> Preparação para entrevistas</p>
+                        <p><i class="fas fa-check"></i> Mentoria em grupo semanal</p>
+                    </div>
+                    
+                    <div class="curso-price">
+                        <div class="old-price">R$ 1.997</div>
+                        <div class="new-price">R$ 997</div>
+                        <div class="installment">ou 12x R$ 99,90</div>
+                    </div>
+                    
+                    <a href="#contato" class="btn btn-secondary btn-block">
+                        <i class="fas fa-shopping-cart"></i> QUERO ME INSCREVER
+                    </a>
+                </div>
+                
+                <!-- Curso 3 -->
+                <div class="curso-card">
+                    <div class="curso-header">
+                        <div class="curso-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>React & React Native</h3>
+                        <p class="curso-desc">Aplicações web e mobile com React</p>
+                    </div>
+                    
+                    <div class="curso-features">
+                        <p><i class="fas fa-check"></i> 60 horas de conteúdo</p>
+                        <p><i class="fas fa-check"></i> 8 apps publicados</p>
+                        <p><i class="fas fa-check"></i> Deploy e publicação</p>
+                        <p><i class="fas fa-check"></i> Acesso vitalício</p>
+                    </div>
+                    
+                    <div class="curso-price">
+                        <div class="old-price">R$ 1.297</div>
+                        <div class="new-price">R$ 697</div>
+                        <div class="installment">ou 12x R$ 69,90</div>
+                    </div>
+                    
+                    <a href="#contato" class="btn btn-secondary btn-block">
+                        <i class="fas fa-shopping-cart"></i> QUERO ME INSCREVER
+                    </a>
+                </div>
+            </div>
+            
+            <div class="curso-guarantee">
+                <i class="fas fa-award"></i>
+                <p><strong>GARANTIA INCONDICIONAL:</strong> 30 dias para testar. Se não gostar, devolvemos 100% do seu investimento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentoria -->
+    <section id="mentoria" class="mentoria">
+        <div class="container">
+            <div class="mentoria-content">
+                <div class="mentoria-text">
+                    <div class="badge">
+                        <span><i class="fas fa-crown"></i> OFERTA ESPECIAL</span>
+                    </div>
+                    
+                    <h2 class="section-title">Mentoria <span class="highlight">1:1</span> Comigo</h2>
+                    <p class="lead">Sessão individual para alavancar sua carreira</p>
+                    
+                    <ul class="mentoria-list">
+                        <li><i class="fas fa-check-circle"></i> Análise do seu portfólio e GitHub</li>
+                        <li><i class="fas fa-check-circle"></i> Plano de estudos personalizado</li>
+                        <li><i class="fas fa-check-circle"></i> Simulação de entrevista técnica</li>
+                        <li><i class="fas fa-check-circle"></i> Estratégia de LinkedIn e networking</li>
+                        <li><i class="fas fa-check-circle"></i> Acesso à comunidade exclusiva</li>
+                    </ul>
+                    
+                    <div class="mentoria-price">
+                        <div class="price-box">
+                            <div class="normal-price">
+                                <span>Valor normal: <s>R$ 500/sessão</s></span>
+                            </div>
+                            <div class="offer-price">
+                                <h3>PRIMEIRA SESSÃO: <span class="highlight">GRÁTIS</span></h3>
+                                <p>Para os primeiros 50 inscritos</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mentoria-cta">
+                        <a href="#contato" class="btn btn-primary btn-large">
+                            <i class="fas fa-calendar-check"></i> AGENDAR MENTORIA GRÁTIS
+                        </a>
+                        <p class="small"><i class="fas fa-users"></i> Apenas <strong id="spots-left">27</strong> vagas restantes</p>
+                    </div>
+                </div>
+                
+                <div class="mentoria-form">
+                    <div class="form-container">
+                        <h3><i class="fas fa-edit"></i> Pré-inscrição</h3>
+                        <p>Garanta sua vaga para a mentoria gratuita</p>
+                        
+                        <form id="mentoriaForm">
+                            <div class="form-group">
+                                <input type="text" placeholder="Seu nome completo" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" placeholder="Seu melhor e-mail" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" placeholder="WhatsApp (com DDD)" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select required>
+                                    <option value="" disabled selected>Qual seu nível?</option>
+                                    <option>Iniciante total</option>
+                                    <option>Já estudei algo</option>
+                                    <option>Já trabalho na área</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea placeholder="Qual seu maior desafio na programação?" rows="3"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i> GARANTIR MINHA VAGA
+                            </button>
+                            
+                            <p class="form-note">
+                                <i class="fas fa-lock"></i> Seus dados estão seguros. Não enviamos spam.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Histórias de <span class="highlight">Sucesso</span></h2>
+                <p class="section-subtitle">O que meus alunos estão conquistando</p>
+            </div>
+            
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Carlos Silva</h4>
+                            <p>Ex-motorista de app</p>
+                        </div>
+                    </div>
+                    
+                    <div class="depoimento-text">
+                        <p>"Em 8 meses mudei de carreira. Hoje sou desenvolvedor Júnior com salário de R$ 4.200. O Teacher não só ensina código, mas como pensar como dev."</p>
+                    </div>
+                    
+                    <div class="depoimento-footer">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>React Developer @ StartUp</span>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Amanda Costa</h4>
+                            <p>Ex-administradora</p>
+                        </div>
+                    </div>
+                    
+                    <div class="depoimento-text">
+                        <p>"A mentoria mudou tudo! Em 3 meses otimizei meu LinkedIn, melhorei meu portfólio e consegui 3 propostas de emprego. Escolhi uma de R$ 5.800!"</p>
+                    </div>
+                    
+                    <div class="depoimento-footer">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>Frontend Developer @ Empresa Multinacional</span>
+                    </div>
+                </div>
+                
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Roberto Alves</h4>
+                            <p>Freelancer há 2 anos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="depoimento-text">
+                        <p>"Tinha conhecimento mas não conseguia projetos. Com as estratégias do Teacher, tripliquei minha renda em 4 meses. Agora tenho clientes fixos!"</p>
+                    </div>
+                    
+                    <div class="depoimento-footer">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>Full Stack Freelancer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas <span class="highlight">Frequentes</span></h2>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fas fa-question-circle"></i> Preciso ter experiência prévia?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! Meus cursos são feitos para iniciantes absolutos. Começamos do zero e te levo até o nível profissional.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fas fa-question-circle"></i> Como funciona a mentoria gratuita?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>É uma sessão de 60 minutos via Zoom onde analisamos sua situação atual e traçamos um plano personalizado. Sem compromisso!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fas fa-question-circle"></i> Tenho acesso vitalício?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Todos os cursos dão acesso vitalício, incluindo atualizações futuras do conteúdo.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4><i class="fas fa-question-circle"></i> E se eu não gostar do curso?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Temos garantia de 30 dias. Se não estiver satisfeito, devolvemos 100% do seu investimento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contato" class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <div class="badge">
+                    <span><i class="fas fa-gem"></i> OFERTA POR TEMPO LIMITADO</span>
+                </div>
+                
+                <h2 class="cta-title">Sua Carreira em <span class="highlight">Tecnologia</span> Começa Aqui</h2>
+                
+                <div class="cta-offer">
+                    <div class="offer-card">
+                        <h3><i class="fas fa-crown"></i> OFERTA COMPLETA</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Curso JavaScript Profissional</li>
+                            <li><i class="fas fa-check"></i> Mentoria 1:1 Personalizada</li>
+                            <li><i class="fas fa-check"></i> Acesso à Comunidade VIP</li>
+                            <li><i class="fas fa-check"></i> Certificado Reconhecido</li>
+                            <li><i class="fas fa-check"></i> Suporte Direto Comigo</li>
+                        </ul>
+                        
+                        <div class="offer-price">
+                            <div class="total-price">
+                                <s>R$ 1.497</s>
+                                <h2>R$ 697</h2>
+                                <p>à vista ou 12x R$ 69,90</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-primary btn-large btn-block" id="finalCta">
+                            <i class="fas fa-bolt"></i> QUERO TRANSFORMAR MINHA CARREIRA
+                        </a>
+                        
+                        <p class="offer-note">
+                            <i class="fas fa-shield-alt"></i> 30 dias de garantia | Acesso imediato
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="payment-methods">
+                    <p>Aceitamos:</p>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fas fa-barcode"></i>
+                        <i class="fas fa-mobile-alt"></i> <!-- PIX -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h3>TEACHER <span class="highlight">SUSSA</span></h3>
+                            <p>Tecnologia sem complicação</p>
+                        </div>
+                    </div>
+                    <p class="footer-mission">
+                        Transformando vidas através da educação em tecnologia desde 2010.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4>Cursos</h4>
+                        <a href="#">JavaScript Profissional</a>
+                        <a href="#">Full Stack</a>
+                        <a href="#">React & React Native</a>
+                        <a href="#">Carreira Tech</a>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Recursos</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Mentoria Gratuita</a>
+                        <a href="#">Comunidade</a>
+                        <a href="#">Depoimentos</a>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Legal</h4>
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Garantia</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-envelope"></i> contato@teachersussa.com</p>
+                    <p><i class="fas fa-phone"></i> (258) 85162-9395</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Teacher Sussa. Todos os direitos reservados.</p>
+                <p class="footer-note">
+                    Este site é um exemplo educacional. Hospedado gratuitamente no <strong>Render</strong>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/258851629395?text=Olá%20Teacher%20Sussa!%20Gostaria%20de%20saber%20mais%20sobre%20os%20cursos" 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
